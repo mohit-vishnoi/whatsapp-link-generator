@@ -1,0 +1,92 @@
+body {
+    background: #121212;
+    color: white;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+.container {
+    max-width: 600px;
+}
+.linkinputs input, .linkinputs textarea {
+    margin-bottom: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+}
+.linkinputs input:focus, .linkinputs textarea:focus {
+    background-color: #2d2d2d;
+    color: white;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+#alertMessage {
+    display: none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#linkInfo {
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+#waLink {
+    background-color: #3d3d3d;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    word-break: break-all;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+.btn-action {
+    margin: 0.25rem;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-copy {
+    background-color: #0a58ca;
+}
+.btn-share {
+    background-color: #146c43;
+}
+.btn-open {
+    background-color: #1e9b50;
+}
+.btn-newlink {
+    background-color: #6c757d;
+}
+h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #25D366;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+[aria-live="polite"] {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}Enter file contents here
